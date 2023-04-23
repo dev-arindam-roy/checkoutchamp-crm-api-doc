@@ -9,7 +9,7 @@
 ### STEP 1: Run the composer command:
 
 ```shell
-composer require checkoutchamp/api-doc
+composer require checkoutchamp-crm/api-doc
 ```
 
 ### STEP 2: Laravel without auto-discovery:
@@ -17,7 +17,7 @@ composer require checkoutchamp/api-doc
 If you don't use auto-discovery, add the ServiceProvider to the providers array in config/app.php
 
 ```php
-CheckoutChamp\ApiDoc\CheckoutChampApiDoc::class,
+CheckoutChampCrm\ApiDoc\CheckoutChampCrmApiDoc::class,
 ```
 
 ## How to use?: It's Very Easy
@@ -29,9 +29,9 @@ CheckoutChamp\ApiDoc\CheckoutChampApiDoc::class,
 </dl>
 
 ```php
-Ex: http://your-website/checkoutchamp-api-doc
+Ex: http://your-website/checkoutchamp-crm-api-doc
 
-Ex: http://localhost:8000/checkoutchamp-api-doc
+Ex: http://localhost:8000/checkoutchamp-crm-api-doc
 ```
 
 
